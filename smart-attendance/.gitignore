@@ -1,0 +1,27 @@
+# Node
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Java / Maven
+backend/target/
+backend/*.jar
+backend/*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase service account (sensitive)
+backend/src/main/resources/firebase-service-account.json
+
+# Logs
+*.log
+npm-debug.log*
